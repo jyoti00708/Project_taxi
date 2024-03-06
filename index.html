@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Tour and Travels</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 150px;
+        height: 50px;
+        z-index: 1;
+        border-radius: 10%;
+    }
+    .company-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.company-info p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.company-info ul {
+    margin-bottom: 20px;
+}
+
+.company-info ul li {
+    margin-bottom: 5px;
+}
+
+.company-info ul li::before {
+    content: "\2022"; /* Bullet point */
+    color: #333;
+    font-size: 12px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.company-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.company-info a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <h1>Vansh Tour and Travels</h1> -->
+        <img src="Screenshot (146).png" alt="Vansh Tour and Travels Logo" class="logo">
+        <h1>Vansh Tour And Travels</h1>
+        <h2>Ankit Kumar (+91 7976633454)</h2>
+        <nav>
+
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="company-info">
+        
+        <p>Vansh Tour and Travels is a leading travel agency based in Baloda, Rajasthan. We specialize in providing comfortable and convenient transportation services to our customers.</p>
+        
+        <ul>
+            <li>Local and long-distance taxi services</li>
+            <li>Airport transfers</li>
+            <li>Sightseeing tours</li>
+            <li>Corporate travel solutions</li>
+        </ul>
+        <p>At Vansh Tour and Travels, customer satisfaction is our top priority. Our team of experienced drivers and staff members are dedicated to ensuring a safe and enjoyable travel experience for all our customers.</p>
+        <p>Contact us today to book your next journey with Vansh Tour and Travels!</p>
+    </div>
+
+    <section id="booking">
+        <h2>Book Your Ride</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" name="pickup" required><br>
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- <section id="about">
+        <h2>About Us</h2>
+        <p>[Insert information about Vansh Tour and Travels here]</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>[Insert information about services provided]</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For bookings or inquiries, contact us at:</p>
+        <p>Phone: [Phone number]</p>
+        <p>Email: [Email address]</p>
+        <p>Address: Baloda, Rajasthan</p>
+    </section> -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>Contact Information</h3>
+                <p>Address: Baloda, Jhunjhunu (Raj)</p>
+                <p>Phone: 7976633454</p>
+                <p>Email: vanshtourandtravelinfo@gmail.com</p>
+            </div>
+        <p>&copy; 2024 Vansh Tour and Travels</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
